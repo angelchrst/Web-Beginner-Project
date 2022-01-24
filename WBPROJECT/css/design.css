@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+#header {
+	background-color: #043927;
+	height: 150px;
+	position: relative;
+}
+#header_text {
+	font-family: 'Sacramento', cursive;
+	font-size: 30pt;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+#navbar {
+	width: 100%;
+	border: 1px solid #FFF;
+	background-color: #B6CFB6;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15pt;
+}
+	
+#navbar ul {
+	text-align: center;
+	margin: 6px 6px 6px 6px;
+	padding: 0px;
+	list-style: none;
+}
+
+#navbar li {
+	margin: 10px;
+	padding: 0px;
+	display: inline;
+}
+	
+#navbar a {
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	color: #688F4E;
+	font-size: 15pt;
+}
+
+#navbar a:hover {
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #688F4E;
+}
+
+#content {
+	margin: 10px 10px 10px 10px;
+	padding: 15px;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.addpost {
+	text-align: left;
+}
+
+.post {
+	text-align: left;
+}
+
+#footer {
+  	bottom: 0;
+  	width: 100%;
+  	background-color: #043927;
+  	color: white;
+  	text-align: center;
+  	padding: 10px;
+  	font-family: 'Josefin Sans', sans-serif;
+}
+
+#footer p a {
+	padding: 10px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 14pt;
+}
